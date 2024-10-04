@@ -1,0 +1,1128 @@
+2023-06-05 17:45:32,005 - Model - INFO - PARAMETER ...
+2023-06-05 17:45:32,005 - Model - INFO - Namespace(use_cpu=False, gpu='0', batch_size=16, model='pointnet_cls', num_category=5, epoch=200, learning_rate=0.001, num_point=1024, optimizer='Adam', log_dir='0605_pointnet_cls_normal', decay_rate=0.0001, use_normals=True, process_data=False, use_uniform_sample=False)
+2023-06-05 17:45:32,005 - Model - INFO - Load dataset ...
+2023-06-05 17:45:32,139 - Model - INFO - No existing model, starting training from scratch...
+2023-06-05 17:45:32,140 - Model - INFO - Start training...
+2023-06-05 17:45:32,140 - Model - INFO - Epoch 1 (1/200):
+2023-06-05 17:45:45,875 - Model - INFO - Train Instance Accuracy: 0.342330
+2023-06-05 17:45:58,127 - Model - INFO - Test Instance Accuracy: 0.380682, Class Accuracy: 0.318482
+2023-06-05 17:45:58,127 - Model - INFO - Best Instance Accuracy: 0.380682, Class Accuracy: 0.318482
+2023-06-05 17:45:58,127 - Model - INFO - Save model...
+2023-06-05 17:45:58,127 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 17:45:58,166 - Model - INFO - Epoch 2 (2/200):
+2023-06-05 17:46:11,514 - Model - INFO - Train Instance Accuracy: 0.403409
+2023-06-05 17:46:23,933 - Model - INFO - Test Instance Accuracy: 0.369318, Class Accuracy: 0.357946
+2023-06-05 17:46:23,933 - Model - INFO - Best Instance Accuracy: 0.380682, Class Accuracy: 0.357946
+2023-06-05 17:46:23,933 - Model - INFO - Epoch 3 (3/200):
+2023-06-05 17:46:37,301 - Model - INFO - Train Instance Accuracy: 0.456676
+2023-06-05 17:46:49,721 - Model - INFO - Test Instance Accuracy: 0.531250, Class Accuracy: 0.489911
+2023-06-05 17:46:49,721 - Model - INFO - Best Instance Accuracy: 0.531250, Class Accuracy: 0.489911
+2023-06-05 17:46:49,721 - Model - INFO - Save model...
+2023-06-05 17:46:49,721 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 17:46:49,773 - Model - INFO - Epoch 4 (4/200):
+2023-06-05 17:47:03,095 - Model - INFO - Train Instance Accuracy: 0.427557
+2023-06-05 17:47:15,514 - Model - INFO - Test Instance Accuracy: 0.460227, Class Accuracy: 0.422143
+2023-06-05 17:47:15,515 - Model - INFO - Best Instance Accuracy: 0.531250, Class Accuracy: 0.489911
+2023-06-05 17:47:15,515 - Model - INFO - Epoch 5 (5/200):
+2023-06-05 17:47:28,853 - Model - INFO - Train Instance Accuracy: 0.475852
+2023-06-05 17:47:41,110 - Model - INFO - Test Instance Accuracy: 0.542614, Class Accuracy: 0.509643
+2023-06-05 17:47:41,110 - Model - INFO - Best Instance Accuracy: 0.542614, Class Accuracy: 0.509643
+2023-06-05 17:47:41,110 - Model - INFO - Save model...
+2023-06-05 17:47:41,110 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 17:47:41,167 - Model - INFO - Epoch 6 (6/200):
+2023-06-05 17:47:54,499 - Model - INFO - Train Instance Accuracy: 0.492898
+2023-06-05 17:48:06,900 - Model - INFO - Test Instance Accuracy: 0.525568, Class Accuracy: 0.479732
+2023-06-05 17:48:06,901 - Model - INFO - Best Instance Accuracy: 0.542614, Class Accuracy: 0.509643
+2023-06-05 17:48:06,901 - Model - INFO - Epoch 7 (7/200):
+2023-06-05 17:48:20,259 - Model - INFO - Train Instance Accuracy: 0.500710
+2023-06-05 17:48:32,682 - Model - INFO - Test Instance Accuracy: 0.605114, Class Accuracy: 0.624107
+2023-06-05 17:48:32,682 - Model - INFO - Best Instance Accuracy: 0.605114, Class Accuracy: 0.624107
+2023-06-05 17:48:32,682 - Model - INFO - Save model...
+2023-06-05 17:48:32,682 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 17:48:32,734 - Model - INFO - Epoch 8 (8/200):
+2023-06-05 17:48:46,042 - Model - INFO - Train Instance Accuracy: 0.517756
+2023-06-05 17:48:58,280 - Model - INFO - Test Instance Accuracy: 0.596591, Class Accuracy: 0.560000
+2023-06-05 17:48:58,280 - Model - INFO - Best Instance Accuracy: 0.605114, Class Accuracy: 0.624107
+2023-06-05 17:48:58,280 - Model - INFO - Epoch 9 (9/200):
+2023-06-05 17:49:11,650 - Model - INFO - Train Instance Accuracy: 0.530540
+2023-06-05 17:49:23,883 - Model - INFO - Test Instance Accuracy: 0.602273, Class Accuracy: 0.526786
+2023-06-05 17:49:23,883 - Model - INFO - Best Instance Accuracy: 0.605114, Class Accuracy: 0.624107
+2023-06-05 17:49:23,884 - Model - INFO - Epoch 10 (10/200):
+2023-06-05 17:49:37,257 - Model - INFO - Train Instance Accuracy: 0.567472
+2023-06-05 17:49:49,699 - Model - INFO - Test Instance Accuracy: 0.602273, Class Accuracy: 0.520714
+2023-06-05 17:49:49,699 - Model - INFO - Best Instance Accuracy: 0.605114, Class Accuracy: 0.624107
+2023-06-05 17:49:49,700 - Model - INFO - Epoch 11 (11/200):
+2023-06-05 17:50:03,046 - Model - INFO - Train Instance Accuracy: 0.568182
+2023-06-05 17:50:15,468 - Model - INFO - Test Instance Accuracy: 0.690341, Class Accuracy: 0.678036
+2023-06-05 17:50:15,468 - Model - INFO - Best Instance Accuracy: 0.690341, Class Accuracy: 0.678036
+2023-06-05 17:50:15,468 - Model - INFO - Save model...
+2023-06-05 17:50:15,468 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 17:50:15,520 - Model - INFO - Epoch 12 (12/200):
+2023-06-05 17:50:28,833 - Model - INFO - Train Instance Accuracy: 0.584517
+2023-06-05 17:50:41,249 - Model - INFO - Test Instance Accuracy: 0.724432, Class Accuracy: 0.705536
+2023-06-05 17:50:41,249 - Model - INFO - Best Instance Accuracy: 0.724432, Class Accuracy: 0.705536
+2023-06-05 17:50:41,249 - Model - INFO - Save model...
+2023-06-05 17:50:41,249 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 17:50:41,299 - Model - INFO - Epoch 13 (13/200):
+2023-06-05 17:50:54,605 - Model - INFO - Train Instance Accuracy: 0.575284
+2023-06-05 17:51:07,035 - Model - INFO - Test Instance Accuracy: 0.676136, Class Accuracy: 0.608482
+2023-06-05 17:51:07,035 - Model - INFO - Best Instance Accuracy: 0.724432, Class Accuracy: 0.705536
+2023-06-05 17:51:07,035 - Model - INFO - Epoch 14 (14/200):
+2023-06-05 17:51:20,408 - Model - INFO - Train Instance Accuracy: 0.609375
+2023-06-05 17:51:32,816 - Model - INFO - Test Instance Accuracy: 0.755682, Class Accuracy: 0.692500
+2023-06-05 17:51:32,817 - Model - INFO - Best Instance Accuracy: 0.755682, Class Accuracy: 0.705536
+2023-06-05 17:51:32,817 - Model - INFO - Save model...
+2023-06-05 17:51:32,817 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 17:51:32,868 - Model - INFO - Epoch 15 (15/200):
+2023-06-05 17:51:46,202 - Model - INFO - Train Instance Accuracy: 0.598722
+2023-06-05 17:51:58,646 - Model - INFO - Test Instance Accuracy: 0.767045, Class Accuracy: 0.727589
+2023-06-05 17:51:58,647 - Model - INFO - Best Instance Accuracy: 0.767045, Class Accuracy: 0.727589
+2023-06-05 17:51:58,647 - Model - INFO - Save model...
+2023-06-05 17:51:58,647 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 17:51:58,698 - Model - INFO - Epoch 16 (16/200):
+2023-06-05 17:52:12,220 - Model - INFO - Train Instance Accuracy: 0.648438
+2023-06-05 17:52:24,620 - Model - INFO - Test Instance Accuracy: 0.738636, Class Accuracy: 0.659018
+2023-06-05 17:52:24,620 - Model - INFO - Best Instance Accuracy: 0.767045, Class Accuracy: 0.727589
+2023-06-05 17:52:24,620 - Model - INFO - Epoch 17 (17/200):
+2023-06-05 17:52:37,973 - Model - INFO - Train Instance Accuracy: 0.613636
+2023-06-05 17:52:50,411 - Model - INFO - Test Instance Accuracy: 0.644886, Class Accuracy: 0.588482
+2023-06-05 17:52:50,411 - Model - INFO - Best Instance Accuracy: 0.767045, Class Accuracy: 0.727589
+2023-06-05 17:52:50,411 - Model - INFO - Epoch 18 (18/200):
+2023-06-05 17:53:03,789 - Model - INFO - Train Instance Accuracy: 0.641335
+2023-06-05 17:53:16,196 - Model - INFO - Test Instance Accuracy: 0.855114, Class Accuracy: 0.837411
+2023-06-05 17:53:16,196 - Model - INFO - Best Instance Accuracy: 0.855114, Class Accuracy: 0.837411
+2023-06-05 17:53:16,196 - Model - INFO - Save model...
+2023-06-05 17:53:16,196 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 17:53:16,246 - Model - INFO - Epoch 19 (19/200):
+2023-06-05 17:53:29,593 - Model - INFO - Train Instance Accuracy: 0.667614
+2023-06-05 17:53:41,971 - Model - INFO - Test Instance Accuracy: 0.798295, Class Accuracy: 0.740357
+2023-06-05 17:53:41,971 - Model - INFO - Best Instance Accuracy: 0.855114, Class Accuracy: 0.837411
+2023-06-05 17:53:41,971 - Model - INFO - Epoch 20 (20/200):
+2023-06-05 17:53:55,368 - Model - INFO - Train Instance Accuracy: 0.702415
+2023-06-05 17:54:07,579 - Model - INFO - Test Instance Accuracy: 0.897727, Class Accuracy: 0.860446
+2023-06-05 17:54:07,579 - Model - INFO - Best Instance Accuracy: 0.897727, Class Accuracy: 0.860446
+2023-06-05 17:54:07,579 - Model - INFO - Save model...
+2023-06-05 17:54:07,579 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 17:54:07,634 - Model - INFO - Epoch 21 (21/200):
+2023-06-05 17:54:20,961 - Model - INFO - Train Instance Accuracy: 0.695312
+2023-06-05 17:54:33,367 - Model - INFO - Test Instance Accuracy: 0.934659, Class Accuracy: 0.907321
+2023-06-05 17:54:33,367 - Model - INFO - Best Instance Accuracy: 0.934659, Class Accuracy: 0.907321
+2023-06-05 17:54:33,368 - Model - INFO - Save model...
+2023-06-05 17:54:33,368 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 17:54:33,418 - Model - INFO - Epoch 22 (22/200):
+2023-06-05 17:54:46,767 - Model - INFO - Train Instance Accuracy: 0.714489
+2023-06-05 17:54:59,163 - Model - INFO - Test Instance Accuracy: 0.974432, Class Accuracy: 0.976964
+2023-06-05 17:54:59,163 - Model - INFO - Best Instance Accuracy: 0.974432, Class Accuracy: 0.976964
+2023-06-05 17:54:59,163 - Model - INFO - Save model...
+2023-06-05 17:54:59,163 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 17:54:59,212 - Model - INFO - Epoch 23 (23/200):
+2023-06-05 17:55:12,530 - Model - INFO - Train Instance Accuracy: 0.736506
+2023-06-05 17:55:24,956 - Model - INFO - Test Instance Accuracy: 0.900568, Class Accuracy: 0.845179
+2023-06-05 17:55:24,957 - Model - INFO - Best Instance Accuracy: 0.974432, Class Accuracy: 0.976964
+2023-06-05 17:55:24,957 - Model - INFO - Epoch 24 (24/200):
+2023-06-05 17:55:38,314 - Model - INFO - Train Instance Accuracy: 0.744318
+2023-06-05 17:55:50,730 - Model - INFO - Test Instance Accuracy: 0.894886, Class Accuracy: 0.808125
+2023-06-05 17:55:50,730 - Model - INFO - Best Instance Accuracy: 0.974432, Class Accuracy: 0.976964
+2023-06-05 17:55:50,730 - Model - INFO - Epoch 25 (25/200):
+2023-06-05 17:56:04,127 - Model - INFO - Train Instance Accuracy: 0.747869
+2023-06-05 17:56:16,526 - Model - INFO - Test Instance Accuracy: 0.968750, Class Accuracy: 0.962500
+2023-06-05 17:56:16,526 - Model - INFO - Best Instance Accuracy: 0.974432, Class Accuracy: 0.976964
+2023-06-05 17:56:16,526 - Model - INFO - Epoch 26 (26/200):
+2023-06-05 17:56:29,906 - Model - INFO - Train Instance Accuracy: 0.757102
+2023-06-05 17:56:42,336 - Model - INFO - Test Instance Accuracy: 0.971591, Class Accuracy: 0.970357
+2023-06-05 17:56:42,336 - Model - INFO - Best Instance Accuracy: 0.974432, Class Accuracy: 0.976964
+2023-06-05 17:56:42,337 - Model - INFO - Epoch 27 (27/200):
+2023-06-05 17:56:55,718 - Model - INFO - Train Instance Accuracy: 0.751420
+2023-06-05 17:57:08,120 - Model - INFO - Test Instance Accuracy: 0.840909, Class Accuracy: 0.756696
+2023-06-05 17:57:08,120 - Model - INFO - Best Instance Accuracy: 0.974432, Class Accuracy: 0.976964
+2023-06-05 17:57:08,120 - Model - INFO - Epoch 28 (28/200):
+2023-06-05 17:57:21,746 - Model - INFO - Train Instance Accuracy: 0.768466
+2023-06-05 17:57:34,723 - Model - INFO - Test Instance Accuracy: 0.963068, Class Accuracy: 0.962321
+2023-06-05 17:57:34,723 - Model - INFO - Best Instance Accuracy: 0.974432, Class Accuracy: 0.976964
+2023-06-05 17:57:34,724 - Model - INFO - Epoch 29 (29/200):
+2023-06-05 17:57:48,409 - Model - INFO - Train Instance Accuracy: 0.762784
+2023-06-05 17:58:00,687 - Model - INFO - Test Instance Accuracy: 0.875000, Class Accuracy: 0.797500
+2023-06-05 17:58:00,687 - Model - INFO - Best Instance Accuracy: 0.974432, Class Accuracy: 0.976964
+2023-06-05 17:58:00,687 - Model - INFO - Epoch 30 (30/200):
+2023-06-05 17:58:13,893 - Model - INFO - Train Instance Accuracy: 0.787642
+2023-06-05 17:58:26,100 - Model - INFO - Test Instance Accuracy: 0.980114, Class Accuracy: 0.982500
+2023-06-05 17:58:26,100 - Model - INFO - Best Instance Accuracy: 0.980114, Class Accuracy: 0.982500
+2023-06-05 17:58:26,100 - Model - INFO - Save model...
+2023-06-05 17:58:26,100 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 17:58:26,148 - Model - INFO - Epoch 31 (31/200):
+2023-06-05 17:58:39,453 - Model - INFO - Train Instance Accuracy: 0.776278
+2023-06-05 17:58:51,686 - Model - INFO - Test Instance Accuracy: 0.971591, Class Accuracy: 0.958929
+2023-06-05 17:58:51,686 - Model - INFO - Best Instance Accuracy: 0.980114, Class Accuracy: 0.982500
+2023-06-05 17:58:51,686 - Model - INFO - Epoch 32 (32/200):
+2023-06-05 17:59:04,922 - Model - INFO - Train Instance Accuracy: 0.801847
+2023-06-05 17:59:17,241 - Model - INFO - Test Instance Accuracy: 0.980114, Class Accuracy: 0.962500
+2023-06-05 17:59:17,241 - Model - INFO - Best Instance Accuracy: 0.980114, Class Accuracy: 0.982500
+2023-06-05 17:59:17,241 - Model - INFO - Save model...
+2023-06-05 17:59:17,241 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 17:59:17,288 - Model - INFO - Epoch 33 (33/200):
+2023-06-05 17:59:30,420 - Model - INFO - Train Instance Accuracy: 0.784091
+2023-06-05 17:59:42,470 - Model - INFO - Test Instance Accuracy: 0.980114, Class Accuracy: 0.974107
+2023-06-05 17:59:42,470 - Model - INFO - Best Instance Accuracy: 0.980114, Class Accuracy: 0.982500
+2023-06-05 17:59:42,470 - Model - INFO - Save model...
+2023-06-05 17:59:42,470 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 17:59:42,523 - Model - INFO - Epoch 34 (34/200):
+2023-06-05 17:59:55,650 - Model - INFO - Train Instance Accuracy: 0.810369
+2023-06-05 18:00:07,865 - Model - INFO - Test Instance Accuracy: 0.963068, Class Accuracy: 0.966875
+2023-06-05 18:00:07,865 - Model - INFO - Best Instance Accuracy: 0.980114, Class Accuracy: 0.982500
+2023-06-05 18:00:07,865 - Model - INFO - Epoch 35 (35/200):
+2023-06-05 18:00:21,040 - Model - INFO - Train Instance Accuracy: 0.774148
+2023-06-05 18:00:33,257 - Model - INFO - Test Instance Accuracy: 0.977273, Class Accuracy: 0.980179
+2023-06-05 18:00:33,257 - Model - INFO - Best Instance Accuracy: 0.980114, Class Accuracy: 0.982500
+2023-06-05 18:00:33,258 - Model - INFO - Epoch 36 (36/200):
+2023-06-05 18:00:46,415 - Model - INFO - Train Instance Accuracy: 0.816051
+2023-06-05 18:00:58,638 - Model - INFO - Test Instance Accuracy: 0.937500, Class Accuracy: 0.949107
+2023-06-05 18:00:58,638 - Model - INFO - Best Instance Accuracy: 0.980114, Class Accuracy: 0.982500
+2023-06-05 18:00:58,638 - Model - INFO - Epoch 37 (37/200):
+2023-06-05 18:01:11,842 - Model - INFO - Train Instance Accuracy: 0.821023
+2023-06-05 18:01:24,043 - Model - INFO - Test Instance Accuracy: 0.917614, Class Accuracy: 0.886875
+2023-06-05 18:01:24,043 - Model - INFO - Best Instance Accuracy: 0.980114, Class Accuracy: 0.982500
+2023-06-05 18:01:24,043 - Model - INFO - Epoch 38 (38/200):
+2023-06-05 18:01:37,419 - Model - INFO - Train Instance Accuracy: 0.830256
+2023-06-05 18:01:49,639 - Model - INFO - Test Instance Accuracy: 0.980114, Class Accuracy: 0.986071
+2023-06-05 18:01:49,639 - Model - INFO - Best Instance Accuracy: 0.980114, Class Accuracy: 0.986071
+2023-06-05 18:01:49,639 - Model - INFO - Save model...
+2023-06-05 18:01:49,639 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:01:49,686 - Model - INFO - Epoch 39 (39/200):
+2023-06-05 18:02:02,996 - Model - INFO - Train Instance Accuracy: 0.816051
+2023-06-05 18:02:15,378 - Model - INFO - Test Instance Accuracy: 0.968750, Class Accuracy: 0.977679
+2023-06-05 18:02:15,379 - Model - INFO - Best Instance Accuracy: 0.980114, Class Accuracy: 0.986071
+2023-06-05 18:02:15,379 - Model - INFO - Epoch 40 (40/200):
+2023-06-05 18:02:28,587 - Model - INFO - Train Instance Accuracy: 0.834517
+2023-06-05 18:02:41,007 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:02:41,007 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:02:41,007 - Model - INFO - Save model...
+2023-06-05 18:02:41,007 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:02:41,051 - Model - INFO - Epoch 41 (41/200):
+2023-06-05 18:02:54,376 - Model - INFO - Train Instance Accuracy: 0.852273
+2023-06-05 18:03:06,800 - Model - INFO - Test Instance Accuracy: 0.980114, Class Accuracy: 0.963750
+2023-06-05 18:03:06,800 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:03:06,800 - Model - INFO - Epoch 42 (42/200):
+2023-06-05 18:03:20,166 - Model - INFO - Train Instance Accuracy: 0.865767
+2023-06-05 18:03:32,395 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:03:32,395 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:03:32,395 - Model - INFO - Save model...
+2023-06-05 18:03:32,395 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:03:32,440 - Model - INFO - Epoch 43 (43/200):
+2023-06-05 18:03:45,771 - Model - INFO - Train Instance Accuracy: 0.842330
+2023-06-05 18:03:57,961 - Model - INFO - Test Instance Accuracy: 0.997159, Class Accuracy: 0.996875
+2023-06-05 18:03:57,961 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:03:57,962 - Model - INFO - Epoch 44 (44/200):
+2023-06-05 18:04:11,167 - Model - INFO - Train Instance Accuracy: 0.862216
+2023-06-05 18:04:23,382 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:04:23,382 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:04:23,383 - Model - INFO - Save model...
+2023-06-05 18:04:23,383 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:04:23,424 - Model - INFO - Epoch 45 (45/200):
+2023-06-05 18:04:36,738 - Model - INFO - Train Instance Accuracy: 0.872869
+2023-06-05 18:04:48,970 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:04:48,970 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:04:48,970 - Model - INFO - Save model...
+2023-06-05 18:04:48,970 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:04:49,016 - Model - INFO - Epoch 46 (46/200):
+2023-06-05 18:05:02,355 - Model - INFO - Train Instance Accuracy: 0.870739
+2023-06-05 18:05:14,777 - Model - INFO - Test Instance Accuracy: 0.968750, Class Accuracy: 0.969375
+2023-06-05 18:05:14,777 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:05:14,777 - Model - INFO - Epoch 47 (47/200):
+2023-06-05 18:05:28,132 - Model - INFO - Train Instance Accuracy: 0.879261
+2023-06-05 18:05:40,364 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:05:40,364 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:05:40,364 - Model - INFO - Save model...
+2023-06-05 18:05:40,364 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:05:40,408 - Model - INFO - Epoch 48 (48/200):
+2023-06-05 18:05:53,731 - Model - INFO - Train Instance Accuracy: 0.873580
+2023-06-05 18:06:05,945 - Model - INFO - Test Instance Accuracy: 0.994318, Class Accuracy: 0.995000
+2023-06-05 18:06:05,945 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:06:05,946 - Model - INFO - Epoch 49 (49/200):
+2023-06-05 18:06:19,317 - Model - INFO - Train Instance Accuracy: 0.884233
+2023-06-05 18:06:31,535 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:06:31,535 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:06:31,535 - Model - INFO - Save model...
+2023-06-05 18:06:31,535 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:06:31,581 - Model - INFO - Epoch 50 (50/200):
+2023-06-05 18:06:44,914 - Model - INFO - Train Instance Accuracy: 0.876420
+2023-06-05 18:06:57,133 - Model - INFO - Test Instance Accuracy: 0.994318, Class Accuracy: 0.995000
+2023-06-05 18:06:57,133 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:06:57,133 - Model - INFO - Epoch 51 (51/200):
+2023-06-05 18:07:10,287 - Model - INFO - Train Instance Accuracy: 0.885653
+2023-06-05 18:07:22,517 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:07:22,517 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:07:22,517 - Model - INFO - Save model...
+2023-06-05 18:07:22,517 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:07:22,559 - Model - INFO - Epoch 52 (52/200):
+2023-06-05 18:07:35,893 - Model - INFO - Train Instance Accuracy: 0.857244
+2023-06-05 18:07:48,314 - Model - INFO - Test Instance Accuracy: 0.994318, Class Accuracy: 0.987500
+2023-06-05 18:07:48,314 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:07:48,314 - Model - INFO - Epoch 53 (53/200):
+2023-06-05 18:08:01,688 - Model - INFO - Train Instance Accuracy: 0.891335
+2023-06-05 18:08:14,118 - Model - INFO - Test Instance Accuracy: 0.977273, Class Accuracy: 0.950000
+2023-06-05 18:08:14,119 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:08:14,119 - Model - INFO - Epoch 54 (54/200):
+2023-06-05 18:08:27,476 - Model - INFO - Train Instance Accuracy: 0.862216
+2023-06-05 18:08:39,899 - Model - INFO - Test Instance Accuracy: 0.994318, Class Accuracy: 0.995000
+2023-06-05 18:08:39,900 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:08:39,900 - Model - INFO - Epoch 55 (55/200):
+2023-06-05 18:08:53,278 - Model - INFO - Train Instance Accuracy: 0.882102
+2023-06-05 18:09:05,676 - Model - INFO - Test Instance Accuracy: 0.988636, Class Accuracy: 0.975000
+2023-06-05 18:09:05,676 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:09:05,676 - Model - INFO - Epoch 56 (56/200):
+2023-06-05 18:09:19,081 - Model - INFO - Train Instance Accuracy: 0.892045
+2023-06-05 18:09:31,474 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:09:31,474 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:09:31,474 - Model - INFO - Save model...
+2023-06-05 18:09:31,474 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:09:31,519 - Model - INFO - Epoch 57 (57/200):
+2023-06-05 18:09:44,645 - Model - INFO - Train Instance Accuracy: 0.875710
+2023-06-05 18:09:56,867 - Model - INFO - Test Instance Accuracy: 0.994318, Class Accuracy: 0.995000
+2023-06-05 18:09:56,867 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:09:56,867 - Model - INFO - Epoch 58 (58/200):
+2023-06-05 18:10:10,018 - Model - INFO - Train Instance Accuracy: 0.893466
+2023-06-05 18:10:22,258 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:10:22,259 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:10:22,259 - Model - INFO - Save model...
+2023-06-05 18:10:22,259 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:10:22,305 - Model - INFO - Epoch 59 (59/200):
+2023-06-05 18:10:35,462 - Model - INFO - Train Instance Accuracy: 0.889205
+2023-06-05 18:10:47,657 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:10:47,657 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:10:47,658 - Model - INFO - Save model...
+2023-06-05 18:10:47,658 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:10:47,705 - Model - INFO - Epoch 60 (60/200):
+2023-06-05 18:11:00,834 - Model - INFO - Train Instance Accuracy: 0.898438
+2023-06-05 18:11:13,058 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:11:13,058 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:11:13,058 - Model - INFO - Save model...
+2023-06-05 18:11:13,059 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:11:13,103 - Model - INFO - Epoch 61 (61/200):
+2023-06-05 18:11:26,413 - Model - INFO - Train Instance Accuracy: 0.924716
+2023-06-05 18:11:38,643 - Model - INFO - Test Instance Accuracy: 0.994318, Class Accuracy: 0.993750
+2023-06-05 18:11:38,643 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:11:38,643 - Model - INFO - Epoch 62 (62/200):
+2023-06-05 18:11:51,788 - Model - INFO - Train Instance Accuracy: 0.887784
+2023-06-05 18:12:04,022 - Model - INFO - Test Instance Accuracy: 0.994318, Class Accuracy: 0.996429
+2023-06-05 18:12:04,023 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:12:04,023 - Model - INFO - Epoch 63 (63/200):
+2023-06-05 18:12:17,418 - Model - INFO - Train Instance Accuracy: 0.910511
+2023-06-05 18:12:29,811 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:12:29,811 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:12:29,811 - Model - INFO - Save model...
+2023-06-05 18:12:29,811 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:12:29,861 - Model - INFO - Epoch 64 (64/200):
+2023-06-05 18:12:43,195 - Model - INFO - Train Instance Accuracy: 0.902699
+2023-06-05 18:12:55,415 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:12:55,415 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:12:55,415 - Model - INFO - Save model...
+2023-06-05 18:12:55,415 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:12:55,463 - Model - INFO - Epoch 65 (65/200):
+2023-06-05 18:13:08,573 - Model - INFO - Train Instance Accuracy: 0.916903
+2023-06-05 18:13:20,768 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:13:20,768 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:13:20,768 - Model - INFO - Save model...
+2023-06-05 18:13:20,768 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:13:20,813 - Model - INFO - Epoch 66 (66/200):
+2023-06-05 18:13:33,971 - Model - INFO - Train Instance Accuracy: 0.918324
+2023-06-05 18:13:46,203 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:13:46,203 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:13:46,203 - Model - INFO - Save model...
+2023-06-05 18:13:46,203 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:13:46,249 - Model - INFO - Epoch 67 (67/200):
+2023-06-05 18:13:59,544 - Model - INFO - Train Instance Accuracy: 0.919744
+2023-06-05 18:14:11,789 - Model - INFO - Test Instance Accuracy: 0.994318, Class Accuracy: 0.995000
+2023-06-05 18:14:11,789 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:14:11,789 - Model - INFO - Epoch 68 (68/200):
+2023-06-05 18:14:25,164 - Model - INFO - Train Instance Accuracy: 0.926136
+2023-06-05 18:14:37,567 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:14:37,567 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:14:37,567 - Model - INFO - Save model...
+2023-06-05 18:14:37,567 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:14:37,612 - Model - INFO - Epoch 69 (69/200):
+2023-06-05 18:14:50,952 - Model - INFO - Train Instance Accuracy: 0.939631
+2023-06-05 18:15:03,368 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:15:03,368 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:15:03,368 - Model - INFO - Save model...
+2023-06-05 18:15:03,368 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:15:03,412 - Model - INFO - Epoch 70 (70/200):
+2023-06-05 18:15:16,746 - Model - INFO - Train Instance Accuracy: 0.925426
+2023-06-05 18:15:29,175 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:15:29,175 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:15:29,175 - Model - INFO - Save model...
+2023-06-05 18:15:29,175 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:15:29,226 - Model - INFO - Epoch 71 (71/200):
+2023-06-05 18:15:42,495 - Model - INFO - Train Instance Accuracy: 0.917614
+2023-06-05 18:15:54,745 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:15:54,746 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:15:54,746 - Model - INFO - Save model...
+2023-06-05 18:15:54,746 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:15:54,790 - Model - INFO - Epoch 72 (72/200):
+2023-06-05 18:16:08,105 - Model - INFO - Train Instance Accuracy: 0.918324
+2023-06-05 18:16:20,333 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:16:20,333 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:16:20,333 - Model - INFO - Save model...
+2023-06-05 18:16:20,333 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:16:20,379 - Model - INFO - Epoch 73 (73/200):
+2023-06-05 18:16:33,681 - Model - INFO - Train Instance Accuracy: 0.924006
+2023-06-05 18:16:45,933 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:16:45,933 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:16:45,933 - Model - INFO - Save model...
+2023-06-05 18:16:45,933 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:16:45,978 - Model - INFO - Epoch 74 (74/200):
+2023-06-05 18:16:59,092 - Model - INFO - Train Instance Accuracy: 0.930398
+2023-06-05 18:17:11,326 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:17:11,326 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:17:11,326 - Model - INFO - Save model...
+2023-06-05 18:17:11,326 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:17:11,370 - Model - INFO - Epoch 75 (75/200):
+2023-06-05 18:17:24,518 - Model - INFO - Train Instance Accuracy: 0.928267
+2023-06-05 18:17:36,697 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:17:36,697 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:17:36,697 - Model - INFO - Save model...
+2023-06-05 18:17:36,697 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:17:36,740 - Model - INFO - Epoch 76 (76/200):
+2023-06-05 18:17:49,885 - Model - INFO - Train Instance Accuracy: 0.936080
+2023-06-05 18:18:02,109 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:18:02,109 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:18:02,109 - Model - INFO - Save model...
+2023-06-05 18:18:02,109 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:18:02,155 - Model - INFO - Epoch 77 (77/200):
+2023-06-05 18:18:15,486 - Model - INFO - Train Instance Accuracy: 0.924006
+2023-06-05 18:18:27,880 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:18:27,880 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:18:27,880 - Model - INFO - Save model...
+2023-06-05 18:18:27,880 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:18:27,924 - Model - INFO - Epoch 78 (78/200):
+2023-06-05 18:18:41,089 - Model - INFO - Train Instance Accuracy: 0.932528
+2023-06-05 18:18:53,290 - Model - INFO - Test Instance Accuracy: 0.994318, Class Accuracy: 0.995000
+2023-06-05 18:18:53,290 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:18:53,290 - Model - INFO - Epoch 79 (79/200):
+2023-06-05 18:19:06,478 - Model - INFO - Train Instance Accuracy: 0.927557
+2023-06-05 18:19:18,668 - Model - INFO - Test Instance Accuracy: 0.994318, Class Accuracy: 0.995000
+2023-06-05 18:19:18,668 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:19:18,668 - Model - INFO - Epoch 80 (80/200):
+2023-06-05 18:19:31,880 - Model - INFO - Train Instance Accuracy: 0.926847
+2023-06-05 18:19:44,087 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:19:44,087 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:19:44,087 - Model - INFO - Save model...
+2023-06-05 18:19:44,087 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:19:44,131 - Model - INFO - Epoch 81 (81/200):
+2023-06-05 18:19:57,457 - Model - INFO - Train Instance Accuracy: 0.946733
+2023-06-05 18:20:09,879 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:20:09,879 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:20:09,879 - Model - INFO - Save model...
+2023-06-05 18:20:09,879 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:20:09,934 - Model - INFO - Epoch 82 (82/200):
+2023-06-05 18:20:23,277 - Model - INFO - Train Instance Accuracy: 0.931108
+2023-06-05 18:20:35,666 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:20:35,666 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:20:35,666 - Model - INFO - Save model...
+2023-06-05 18:20:35,666 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:20:35,715 - Model - INFO - Epoch 83 (83/200):
+2023-06-05 18:20:49,047 - Model - INFO - Train Instance Accuracy: 0.951705
+2023-06-05 18:21:01,443 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:21:01,443 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:21:01,443 - Model - INFO - Save model...
+2023-06-05 18:21:01,443 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:21:01,486 - Model - INFO - Epoch 84 (84/200):
+2023-06-05 18:21:14,815 - Model - INFO - Train Instance Accuracy: 0.939631
+2023-06-05 18:21:27,234 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:21:27,234 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:21:27,235 - Model - INFO - Save model...
+2023-06-05 18:21:27,235 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:21:27,283 - Model - INFO - Epoch 85 (85/200):
+2023-06-05 18:21:40,432 - Model - INFO - Train Instance Accuracy: 0.934659
+2023-06-05 18:21:52,621 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:21:52,621 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:21:52,622 - Model - INFO - Save model...
+2023-06-05 18:21:52,622 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:21:52,665 - Model - INFO - Epoch 86 (86/200):
+2023-06-05 18:22:06,013 - Model - INFO - Train Instance Accuracy: 0.933239
+2023-06-05 18:22:18,226 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:22:18,226 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:22:18,227 - Model - INFO - Save model...
+2023-06-05 18:22:18,227 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:22:18,275 - Model - INFO - Epoch 87 (87/200):
+2023-06-05 18:22:31,610 - Model - INFO - Train Instance Accuracy: 0.943892
+2023-06-05 18:22:43,821 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:22:43,821 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:22:43,821 - Model - INFO - Save model...
+2023-06-05 18:22:43,821 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:22:43,867 - Model - INFO - Epoch 88 (88/200):
+2023-06-05 18:22:57,183 - Model - INFO - Train Instance Accuracy: 0.948864
+2023-06-05 18:23:09,414 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:23:09,414 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:23:09,414 - Model - INFO - Save model...
+2023-06-05 18:23:09,414 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:23:09,458 - Model - INFO - Epoch 89 (89/200):
+2023-06-05 18:23:22,770 - Model - INFO - Train Instance Accuracy: 0.947443
+2023-06-05 18:23:35,001 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:23:35,001 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:23:35,001 - Model - INFO - Save model...
+2023-06-05 18:23:35,001 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:23:35,046 - Model - INFO - Epoch 90 (90/200):
+2023-06-05 18:23:48,183 - Model - INFO - Train Instance Accuracy: 0.937500
+2023-06-05 18:24:00,398 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:24:00,398 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:24:00,398 - Model - INFO - Save model...
+2023-06-05 18:24:00,398 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:24:00,444 - Model - INFO - Epoch 91 (91/200):
+2023-06-05 18:24:13,761 - Model - INFO - Train Instance Accuracy: 0.949574
+2023-06-05 18:24:26,010 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:24:26,010 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:24:26,010 - Model - INFO - Save model...
+2023-06-05 18:24:26,010 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:24:26,063 - Model - INFO - Epoch 92 (92/200):
+2023-06-05 18:24:39,366 - Model - INFO - Train Instance Accuracy: 0.948864
+2023-06-05 18:24:51,774 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:24:51,774 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:24:51,774 - Model - INFO - Save model...
+2023-06-05 18:24:51,774 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:24:51,818 - Model - INFO - Epoch 93 (93/200):
+2023-06-05 18:25:04,957 - Model - INFO - Train Instance Accuracy: 0.949574
+2023-06-05 18:25:17,175 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:25:17,175 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:25:17,175 - Model - INFO - Save model...
+2023-06-05 18:25:17,175 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:25:17,226 - Model - INFO - Epoch 94 (94/200):
+2023-06-05 18:25:30,547 - Model - INFO - Train Instance Accuracy: 0.938210
+2023-06-05 18:25:42,957 - Model - INFO - Test Instance Accuracy: 0.997159, Class Accuracy: 0.997500
+2023-06-05 18:25:42,957 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:25:42,957 - Model - INFO - Epoch 95 (95/200):
+2023-06-05 18:25:56,144 - Model - INFO - Train Instance Accuracy: 0.931818
+2023-06-05 18:26:08,566 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:26:08,566 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:26:08,566 - Model - INFO - Save model...
+2023-06-05 18:26:08,566 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:26:08,613 - Model - INFO - Epoch 96 (96/200):
+2023-06-05 18:26:21,914 - Model - INFO - Train Instance Accuracy: 0.939631
+2023-06-05 18:26:34,159 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:26:34,160 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:26:34,160 - Model - INFO - Save model...
+2023-06-05 18:26:34,160 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:26:34,209 - Model - INFO - Epoch 97 (97/200):
+2023-06-05 18:26:47,517 - Model - INFO - Train Instance Accuracy: 0.941051
+2023-06-05 18:26:59,747 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:26:59,748 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:26:59,748 - Model - INFO - Save model...
+2023-06-05 18:26:59,748 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:26:59,792 - Model - INFO - Epoch 98 (98/200):
+2023-06-05 18:27:13,113 - Model - INFO - Train Instance Accuracy: 0.947443
+2023-06-05 18:27:25,531 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:27:25,531 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:27:25,531 - Model - INFO - Save model...
+2023-06-05 18:27:25,531 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:27:25,577 - Model - INFO - Epoch 99 (99/200):
+2023-06-05 18:27:38,912 - Model - INFO - Train Instance Accuracy: 0.945312
+2023-06-05 18:27:51,315 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:27:51,315 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:27:51,316 - Model - INFO - Save model...
+2023-06-05 18:27:51,316 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:27:51,360 - Model - INFO - Epoch 100 (100/200):
+2023-06-05 18:28:04,654 - Model - INFO - Train Instance Accuracy: 0.953835
+2023-06-05 18:28:16,918 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:28:16,918 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:28:16,918 - Model - INFO - Save model...
+2023-06-05 18:28:16,918 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:28:16,960 - Model - INFO - Epoch 101 (101/200):
+2023-06-05 18:28:30,281 - Model - INFO - Train Instance Accuracy: 0.948864
+2023-06-05 18:28:42,507 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:28:42,507 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:28:42,507 - Model - INFO - Save model...
+2023-06-05 18:28:42,507 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:28:42,649 - Model - INFO - Epoch 102 (102/200):
+2023-06-05 18:28:55,896 - Model - INFO - Train Instance Accuracy: 0.955966
+2023-06-05 18:29:08,105 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:29:08,105 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:29:08,105 - Model - INFO - Save model...
+2023-06-05 18:29:08,105 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:29:08,149 - Model - INFO - Epoch 103 (103/200):
+2023-06-05 18:29:21,274 - Model - INFO - Train Instance Accuracy: 0.961648
+2023-06-05 18:29:33,479 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:29:33,479 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:29:33,479 - Model - INFO - Save model...
+2023-06-05 18:29:33,479 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:29:33,524 - Model - INFO - Epoch 104 (104/200):
+2023-06-05 18:29:46,883 - Model - INFO - Train Instance Accuracy: 0.974432
+2023-06-05 18:29:59,089 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:29:59,089 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:29:59,089 - Model - INFO - Save model...
+2023-06-05 18:29:59,089 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:29:59,137 - Model - INFO - Epoch 105 (105/200):
+2023-06-05 18:30:12,450 - Model - INFO - Train Instance Accuracy: 0.962358
+2023-06-05 18:30:24,666 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:30:24,666 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:30:24,666 - Model - INFO - Save model...
+2023-06-05 18:30:24,666 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:30:24,709 - Model - INFO - Epoch 106 (106/200):
+2023-06-05 18:30:38,028 - Model - INFO - Train Instance Accuracy: 0.964489
+2023-06-05 18:30:50,263 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:30:50,264 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:30:50,264 - Model - INFO - Save model...
+2023-06-05 18:30:50,264 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:30:50,309 - Model - INFO - Epoch 107 (107/200):
+2023-06-05 18:31:03,634 - Model - INFO - Train Instance Accuracy: 0.959517
+2023-06-05 18:31:15,874 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:31:15,874 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:31:15,874 - Model - INFO - Save model...
+2023-06-05 18:31:15,874 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:31:15,923 - Model - INFO - Epoch 108 (108/200):
+2023-06-05 18:31:29,241 - Model - INFO - Train Instance Accuracy: 0.958807
+2023-06-05 18:31:41,647 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:31:41,647 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:31:41,647 - Model - INFO - Save model...
+2023-06-05 18:31:41,647 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:31:41,693 - Model - INFO - Epoch 109 (109/200):
+2023-06-05 18:31:55,046 - Model - INFO - Train Instance Accuracy: 0.949574
+2023-06-05 18:32:07,409 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:32:07,410 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:32:07,410 - Model - INFO - Save model...
+2023-06-05 18:32:07,410 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:32:07,457 - Model - INFO - Epoch 110 (110/200):
+2023-06-05 18:32:20,833 - Model - INFO - Train Instance Accuracy: 0.950994
+2023-06-05 18:32:33,036 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:32:33,036 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:32:33,036 - Model - INFO - Save model...
+2023-06-05 18:32:33,036 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:32:33,079 - Model - INFO - Epoch 111 (111/200):
+2023-06-05 18:32:46,409 - Model - INFO - Train Instance Accuracy: 0.950284
+2023-06-05 18:32:58,619 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:32:58,619 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:32:58,619 - Model - INFO - Save model...
+2023-06-05 18:32:58,619 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:32:58,662 - Model - INFO - Epoch 112 (112/200):
+2023-06-05 18:33:11,991 - Model - INFO - Train Instance Accuracy: 0.962358
+2023-06-05 18:33:24,404 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:33:24,404 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:33:24,404 - Model - INFO - Save model...
+2023-06-05 18:33:24,404 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:33:24,449 - Model - INFO - Epoch 113 (113/200):
+2023-06-05 18:33:37,788 - Model - INFO - Train Instance Accuracy: 0.962358
+2023-06-05 18:33:49,997 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:33:49,997 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:33:49,997 - Model - INFO - Save model...
+2023-06-05 18:33:49,997 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:33:50,041 - Model - INFO - Epoch 114 (114/200):
+2023-06-05 18:34:03,370 - Model - INFO - Train Instance Accuracy: 0.951705
+2023-06-05 18:34:15,603 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:34:15,604 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:34:15,604 - Model - INFO - Save model...
+2023-06-05 18:34:15,604 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:34:15,653 - Model - INFO - Epoch 115 (115/200):
+2023-06-05 18:34:28,808 - Model - INFO - Train Instance Accuracy: 0.960938
+2023-06-05 18:34:40,989 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:34:40,989 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:34:40,990 - Model - INFO - Save model...
+2023-06-05 18:34:40,990 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:34:41,033 - Model - INFO - Epoch 116 (116/200):
+2023-06-05 18:34:54,367 - Model - INFO - Train Instance Accuracy: 0.945312
+2023-06-05 18:35:06,803 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:35:06,803 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:35:06,803 - Model - INFO - Save model...
+2023-06-05 18:35:06,803 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:35:06,850 - Model - INFO - Epoch 117 (117/200):
+2023-06-05 18:35:20,574 - Model - INFO - Train Instance Accuracy: 0.955966
+2023-06-05 18:35:32,977 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:35:32,977 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:35:32,977 - Model - INFO - Save model...
+2023-06-05 18:35:32,977 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:35:33,032 - Model - INFO - Epoch 118 (118/200):
+2023-06-05 18:35:46,358 - Model - INFO - Train Instance Accuracy: 0.962358
+2023-06-05 18:35:58,558 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:35:58,558 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:35:58,558 - Model - INFO - Save model...
+2023-06-05 18:35:58,558 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:35:58,614 - Model - INFO - Epoch 119 (119/200):
+2023-06-05 18:36:11,969 - Model - INFO - Train Instance Accuracy: 0.963068
+2023-06-05 18:36:24,150 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:36:24,150 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:36:24,150 - Model - INFO - Save model...
+2023-06-05 18:36:24,150 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:36:24,207 - Model - INFO - Epoch 120 (120/200):
+2023-06-05 18:36:37,492 - Model - INFO - Train Instance Accuracy: 0.960938
+2023-06-05 18:36:49,736 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:36:49,736 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:36:49,737 - Model - INFO - Save model...
+2023-06-05 18:36:49,737 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:36:49,781 - Model - INFO - Epoch 121 (121/200):
+2023-06-05 18:37:03,121 - Model - INFO - Train Instance Accuracy: 0.977273
+2023-06-05 18:37:15,539 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:37:15,539 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:37:15,539 - Model - INFO - Save model...
+2023-06-05 18:37:15,539 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:37:15,592 - Model - INFO - Epoch 122 (122/200):
+2023-06-05 18:37:28,934 - Model - INFO - Train Instance Accuracy: 0.966619
+2023-06-05 18:37:41,311 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:37:41,312 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:37:41,312 - Model - INFO - Save model...
+2023-06-05 18:37:41,312 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:37:41,365 - Model - INFO - Epoch 123 (123/200):
+2023-06-05 18:37:54,700 - Model - INFO - Train Instance Accuracy: 0.970170
+2023-06-05 18:38:07,110 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:38:07,110 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:38:07,110 - Model - INFO - Save model...
+2023-06-05 18:38:07,110 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:38:07,169 - Model - INFO - Epoch 124 (124/200):
+2023-06-05 18:38:20,573 - Model - INFO - Train Instance Accuracy: 0.962358
+2023-06-05 18:38:32,914 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:38:32,915 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:38:32,915 - Model - INFO - Save model...
+2023-06-05 18:38:32,915 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:38:32,969 - Model - INFO - Epoch 125 (125/200):
+2023-06-05 18:38:46,314 - Model - INFO - Train Instance Accuracy: 0.964489
+2023-06-05 18:38:58,702 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:38:58,703 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:38:58,703 - Model - INFO - Save model...
+2023-06-05 18:38:58,703 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:38:58,757 - Model - INFO - Epoch 126 (126/200):
+2023-06-05 18:39:12,297 - Model - INFO - Train Instance Accuracy: 0.956676
+2023-06-05 18:39:24,689 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:39:24,689 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:39:24,689 - Model - INFO - Save model...
+2023-06-05 18:39:24,689 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:39:24,742 - Model - INFO - Epoch 127 (127/200):
+2023-06-05 18:39:38,104 - Model - INFO - Train Instance Accuracy: 0.965199
+2023-06-05 18:39:50,477 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:39:50,477 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:39:50,477 - Model - INFO - Save model...
+2023-06-05 18:39:50,477 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:39:50,526 - Model - INFO - Epoch 128 (128/200):
+2023-06-05 18:40:03,859 - Model - INFO - Train Instance Accuracy: 0.968750
+2023-06-05 18:40:16,282 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:40:16,282 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:40:16,282 - Model - INFO - Save model...
+2023-06-05 18:40:16,282 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:40:16,335 - Model - INFO - Epoch 129 (129/200):
+2023-06-05 18:40:29,674 - Model - INFO - Train Instance Accuracy: 0.973011
+2023-06-05 18:40:42,066 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:40:42,067 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:40:42,067 - Model - INFO - Save model...
+2023-06-05 18:40:42,067 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:40:42,120 - Model - INFO - Epoch 130 (130/200):
+2023-06-05 18:40:55,439 - Model - INFO - Train Instance Accuracy: 0.961648
+2023-06-05 18:41:07,858 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:41:07,858 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:41:07,858 - Model - INFO - Save model...
+2023-06-05 18:41:07,858 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:41:07,910 - Model - INFO - Epoch 131 (131/200):
+2023-06-05 18:41:21,217 - Model - INFO - Train Instance Accuracy: 0.965199
+2023-06-05 18:41:33,460 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:41:33,460 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:41:33,460 - Model - INFO - Save model...
+2023-06-05 18:41:33,460 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:41:33,516 - Model - INFO - Epoch 132 (132/200):
+2023-06-05 18:41:46,844 - Model - INFO - Train Instance Accuracy: 0.968750
+2023-06-05 18:41:59,244 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:41:59,245 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:41:59,245 - Model - INFO - Save model...
+2023-06-05 18:41:59,245 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:41:59,299 - Model - INFO - Epoch 133 (133/200):
+2023-06-05 18:42:12,616 - Model - INFO - Train Instance Accuracy: 0.978693
+2023-06-05 18:42:25,041 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:42:25,041 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:42:25,041 - Model - INFO - Save model...
+2023-06-05 18:42:25,041 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:42:25,094 - Model - INFO - Epoch 134 (134/200):
+2023-06-05 18:42:38,437 - Model - INFO - Train Instance Accuracy: 0.956676
+2023-06-05 18:42:50,830 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:42:50,831 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:42:50,831 - Model - INFO - Save model...
+2023-06-05 18:42:50,831 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:42:50,882 - Model - INFO - Epoch 135 (135/200):
+2023-06-05 18:43:04,199 - Model - INFO - Train Instance Accuracy: 0.967330
+2023-06-05 18:43:16,425 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:43:16,425 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:43:16,425 - Model - INFO - Save model...
+2023-06-05 18:43:16,425 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:43:16,482 - Model - INFO - Epoch 136 (136/200):
+2023-06-05 18:43:29,620 - Model - INFO - Train Instance Accuracy: 0.961648
+2023-06-05 18:43:42,017 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:43:42,018 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:43:42,018 - Model - INFO - Save model...
+2023-06-05 18:43:42,018 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:43:42,070 - Model - INFO - Epoch 137 (137/200):
+2023-06-05 18:43:55,388 - Model - INFO - Train Instance Accuracy: 0.971591
+2023-06-05 18:44:07,804 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:44:07,805 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:44:07,805 - Model - INFO - Save model...
+2023-06-05 18:44:07,805 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:44:07,859 - Model - INFO - Epoch 138 (138/200):
+2023-06-05 18:44:21,195 - Model - INFO - Train Instance Accuracy: 0.968040
+2023-06-05 18:44:33,596 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:44:33,596 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:44:33,596 - Model - INFO - Save model...
+2023-06-05 18:44:33,596 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:44:33,648 - Model - INFO - Epoch 139 (139/200):
+2023-06-05 18:44:46,960 - Model - INFO - Train Instance Accuracy: 0.970881
+2023-06-05 18:44:59,196 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:44:59,196 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:44:59,196 - Model - INFO - Save model...
+2023-06-05 18:44:59,196 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:44:59,251 - Model - INFO - Epoch 140 (140/200):
+2023-06-05 18:45:12,565 - Model - INFO - Train Instance Accuracy: 0.968040
+2023-06-05 18:45:24,992 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:45:24,992 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:45:24,992 - Model - INFO - Save model...
+2023-06-05 18:45:24,992 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:45:25,046 - Model - INFO - Epoch 141 (141/200):
+2023-06-05 18:45:38,342 - Model - INFO - Train Instance Accuracy: 0.968040
+2023-06-05 18:45:50,572 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:45:50,572 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:45:50,573 - Model - INFO - Save model...
+2023-06-05 18:45:50,573 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:45:50,620 - Model - INFO - Epoch 142 (142/200):
+2023-06-05 18:46:03,947 - Model - INFO - Train Instance Accuracy: 0.977983
+2023-06-05 18:46:16,363 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:46:16,363 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:46:16,363 - Model - INFO - Save model...
+2023-06-05 18:46:16,363 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:46:16,413 - Model - INFO - Epoch 143 (143/200):
+2023-06-05 18:46:29,746 - Model - INFO - Train Instance Accuracy: 0.975142
+2023-06-05 18:46:41,957 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:46:41,957 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:46:41,957 - Model - INFO - Save model...
+2023-06-05 18:46:41,957 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:46:42,005 - Model - INFO - Epoch 144 (144/200):
+2023-06-05 18:46:55,117 - Model - INFO - Train Instance Accuracy: 0.978693
+2023-06-05 18:47:07,367 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:47:07,367 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:47:07,367 - Model - INFO - Save model...
+2023-06-05 18:47:07,367 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:47:07,420 - Model - INFO - Epoch 145 (145/200):
+2023-06-05 18:47:20,735 - Model - INFO - Train Instance Accuracy: 0.973011
+2023-06-05 18:47:33,141 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:47:33,141 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:47:33,141 - Model - INFO - Save model...
+2023-06-05 18:47:33,141 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:47:33,194 - Model - INFO - Epoch 146 (146/200):
+2023-06-05 18:47:46,531 - Model - INFO - Train Instance Accuracy: 0.978693
+2023-06-05 18:47:58,728 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:47:58,728 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:47:58,728 - Model - INFO - Save model...
+2023-06-05 18:47:58,728 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:47:58,781 - Model - INFO - Epoch 147 (147/200):
+2023-06-05 18:48:12,135 - Model - INFO - Train Instance Accuracy: 0.962358
+2023-06-05 18:48:24,522 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:48:24,522 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:48:24,523 - Model - INFO - Save model...
+2023-06-05 18:48:24,523 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:48:24,578 - Model - INFO - Epoch 148 (148/200):
+2023-06-05 18:48:37,915 - Model - INFO - Train Instance Accuracy: 0.970170
+2023-06-05 18:48:50,307 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:48:50,308 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:48:50,308 - Model - INFO - Save model...
+2023-06-05 18:48:50,308 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:48:50,351 - Model - INFO - Epoch 149 (149/200):
+2023-06-05 18:49:03,687 - Model - INFO - Train Instance Accuracy: 0.966619
+2023-06-05 18:49:16,091 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:49:16,091 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:49:16,091 - Model - INFO - Save model...
+2023-06-05 18:49:16,091 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:49:16,145 - Model - INFO - Epoch 150 (150/200):
+2023-06-05 18:49:29,472 - Model - INFO - Train Instance Accuracy: 0.982955
+2023-06-05 18:49:41,888 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:49:41,888 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:49:41,888 - Model - INFO - Save model...
+2023-06-05 18:49:41,888 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:49:41,942 - Model - INFO - Epoch 151 (151/200):
+2023-06-05 18:49:55,273 - Model - INFO - Train Instance Accuracy: 0.977983
+2023-06-05 18:50:07,717 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:50:07,717 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:50:07,717 - Model - INFO - Save model...
+2023-06-05 18:50:07,717 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:50:07,767 - Model - INFO - Epoch 152 (152/200):
+2023-06-05 18:50:21,074 - Model - INFO - Train Instance Accuracy: 0.980824
+2023-06-05 18:50:33,475 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:50:33,475 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:50:33,476 - Model - INFO - Save model...
+2023-06-05 18:50:33,476 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:50:33,533 - Model - INFO - Epoch 153 (153/200):
+2023-06-05 18:50:46,874 - Model - INFO - Train Instance Accuracy: 0.975142
+2023-06-05 18:50:59,068 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:50:59,068 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:50:59,068 - Model - INFO - Save model...
+2023-06-05 18:50:59,068 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:50:59,121 - Model - INFO - Epoch 154 (154/200):
+2023-06-05 18:51:12,451 - Model - INFO - Train Instance Accuracy: 0.973011
+2023-06-05 18:51:24,851 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:51:24,851 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:51:24,851 - Model - INFO - Save model...
+2023-06-05 18:51:24,851 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:51:24,901 - Model - INFO - Epoch 155 (155/200):
+2023-06-05 18:51:38,040 - Model - INFO - Train Instance Accuracy: 0.974432
+2023-06-05 18:51:50,257 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:51:50,257 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:51:50,257 - Model - INFO - Save model...
+2023-06-05 18:51:50,257 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:51:50,312 - Model - INFO - Epoch 156 (156/200):
+2023-06-05 18:52:03,635 - Model - INFO - Train Instance Accuracy: 0.982955
+2023-06-05 18:52:16,048 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:52:16,049 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:52:16,049 - Model - INFO - Save model...
+2023-06-05 18:52:16,049 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:52:16,094 - Model - INFO - Epoch 157 (157/200):
+2023-06-05 18:52:29,444 - Model - INFO - Train Instance Accuracy: 0.973011
+2023-06-05 18:52:41,638 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:52:41,638 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:52:41,639 - Model - INFO - Save model...
+2023-06-05 18:52:41,639 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:52:41,694 - Model - INFO - Epoch 158 (158/200):
+2023-06-05 18:52:54,822 - Model - INFO - Train Instance Accuracy: 0.968750
+2023-06-05 18:53:07,051 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:53:07,052 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:53:07,052 - Model - INFO - Save model...
+2023-06-05 18:53:07,052 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:53:07,103 - Model - INFO - Epoch 159 (159/200):
+2023-06-05 18:53:20,393 - Model - INFO - Train Instance Accuracy: 0.975852
+2023-06-05 18:53:32,825 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:53:32,825 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:53:32,825 - Model - INFO - Save model...
+2023-06-05 18:53:32,825 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:53:32,879 - Model - INFO - Epoch 160 (160/200):
+2023-06-05 18:53:46,215 - Model - INFO - Train Instance Accuracy: 0.970170
+2023-06-05 18:53:58,596 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:53:58,596 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:53:58,596 - Model - INFO - Save model...
+2023-06-05 18:53:58,596 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:53:58,651 - Model - INFO - Epoch 161 (161/200):
+2023-06-05 18:54:12,017 - Model - INFO - Train Instance Accuracy: 0.980824
+2023-06-05 18:54:24,400 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:54:24,400 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:54:24,400 - Model - INFO - Save model...
+2023-06-05 18:54:24,400 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:54:24,452 - Model - INFO - Epoch 162 (162/200):
+2023-06-05 18:54:37,772 - Model - INFO - Train Instance Accuracy: 0.968750
+2023-06-05 18:54:49,987 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:54:49,987 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:54:49,987 - Model - INFO - Save model...
+2023-06-05 18:54:49,987 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:54:50,030 - Model - INFO - Epoch 163 (163/200):
+2023-06-05 18:55:03,349 - Model - INFO - Train Instance Accuracy: 0.972301
+2023-06-05 18:55:15,586 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:55:15,586 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:55:15,586 - Model - INFO - Save model...
+2023-06-05 18:55:15,587 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:55:15,638 - Model - INFO - Epoch 164 (164/200):
+2023-06-05 18:55:28,953 - Model - INFO - Train Instance Accuracy: 0.977983
+2023-06-05 18:55:41,377 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:55:41,377 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:55:41,377 - Model - INFO - Save model...
+2023-06-05 18:55:41,377 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:55:41,420 - Model - INFO - Epoch 165 (165/200):
+2023-06-05 18:55:54,965 - Model - INFO - Train Instance Accuracy: 0.968040
+2023-06-05 18:56:07,377 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:56:07,377 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:56:07,377 - Model - INFO - Save model...
+2023-06-05 18:56:07,377 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:56:07,430 - Model - INFO - Epoch 166 (166/200):
+2023-06-05 18:56:20,722 - Model - INFO - Train Instance Accuracy: 0.976562
+2023-06-05 18:56:33,166 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:56:33,167 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:56:33,167 - Model - INFO - Save model...
+2023-06-05 18:56:33,167 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:56:33,221 - Model - INFO - Epoch 167 (167/200):
+2023-06-05 18:56:46,750 - Model - INFO - Train Instance Accuracy: 0.976562
+2023-06-05 18:56:59,149 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:56:59,149 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:56:59,149 - Model - INFO - Save model...
+2023-06-05 18:56:59,149 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:56:59,204 - Model - INFO - Epoch 168 (168/200):
+2023-06-05 18:57:12,535 - Model - INFO - Train Instance Accuracy: 0.972301
+2023-06-05 18:57:24,973 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:57:24,973 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:57:24,973 - Model - INFO - Save model...
+2023-06-05 18:57:24,973 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:57:25,016 - Model - INFO - Epoch 169 (169/200):
+2023-06-05 18:57:38,340 - Model - INFO - Train Instance Accuracy: 0.977273
+2023-06-05 18:57:50,730 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:57:50,730 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:57:50,730 - Model - INFO - Save model...
+2023-06-05 18:57:50,730 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:57:50,779 - Model - INFO - Epoch 170 (170/200):
+2023-06-05 18:58:04,083 - Model - INFO - Train Instance Accuracy: 0.983665
+2023-06-05 18:58:16,300 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:58:16,300 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:58:16,300 - Model - INFO - Save model...
+2023-06-05 18:58:16,300 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:58:16,343 - Model - INFO - Epoch 171 (171/200):
+2023-06-05 18:58:29,699 - Model - INFO - Train Instance Accuracy: 0.982955
+2023-06-05 18:58:42,084 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:58:42,084 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:58:42,084 - Model - INFO - Save model...
+2023-06-05 18:58:42,084 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:58:42,137 - Model - INFO - Epoch 172 (172/200):
+2023-06-05 18:58:55,495 - Model - INFO - Train Instance Accuracy: 0.982244
+2023-06-05 18:59:07,912 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:59:07,912 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:59:07,912 - Model - INFO - Save model...
+2023-06-05 18:59:07,912 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:59:07,962 - Model - INFO - Epoch 173 (173/200):
+2023-06-05 18:59:21,302 - Model - INFO - Train Instance Accuracy: 0.984375
+2023-06-05 18:59:33,697 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:59:33,697 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:59:33,697 - Model - INFO - Save model...
+2023-06-05 18:59:33,697 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:59:33,775 - Model - INFO - Epoch 174 (174/200):
+2023-06-05 18:59:47,071 - Model - INFO - Train Instance Accuracy: 0.975852
+2023-06-05 18:59:59,311 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:59:59,311 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 18:59:59,312 - Model - INFO - Save model...
+2023-06-05 18:59:59,312 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 18:59:59,367 - Model - INFO - Epoch 175 (175/200):
+2023-06-05 19:00:12,655 - Model - INFO - Train Instance Accuracy: 0.982955
+2023-06-05 19:00:24,902 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:00:24,902 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:00:24,902 - Model - INFO - Save model...
+2023-06-05 19:00:24,902 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 19:00:24,954 - Model - INFO - Epoch 176 (176/200):
+2023-06-05 19:00:38,277 - Model - INFO - Train Instance Accuracy: 0.974432
+2023-06-05 19:00:50,674 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:00:50,674 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:00:50,674 - Model - INFO - Save model...
+2023-06-05 19:00:50,674 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 19:00:50,719 - Model - INFO - Epoch 177 (177/200):
+2023-06-05 19:01:04,068 - Model - INFO - Train Instance Accuracy: 0.972301
+2023-06-05 19:01:16,493 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:01:16,493 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:01:16,493 - Model - INFO - Save model...
+2023-06-05 19:01:16,493 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 19:01:16,544 - Model - INFO - Epoch 178 (178/200):
+2023-06-05 19:01:29,857 - Model - INFO - Train Instance Accuracy: 0.971591
+2023-06-05 19:01:42,257 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:01:42,257 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:01:42,257 - Model - INFO - Save model...
+2023-06-05 19:01:42,257 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 19:01:42,307 - Model - INFO - Epoch 179 (179/200):
+2023-06-05 19:01:55,633 - Model - INFO - Train Instance Accuracy: 0.977273
+2023-06-05 19:02:08,062 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:02:08,062 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:02:08,062 - Model - INFO - Save model...
+2023-06-05 19:02:08,062 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 19:02:08,106 - Model - INFO - Epoch 180 (180/200):
+2023-06-05 19:02:21,449 - Model - INFO - Train Instance Accuracy: 0.980824
+2023-06-05 19:02:33,834 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:02:33,834 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:02:33,834 - Model - INFO - Save model...
+2023-06-05 19:02:33,834 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 19:02:33,883 - Model - INFO - Epoch 181 (181/200):
+2023-06-05 19:02:47,232 - Model - INFO - Train Instance Accuracy: 0.971591
+2023-06-05 19:02:59,652 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:02:59,652 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:02:59,652 - Model - INFO - Save model...
+2023-06-05 19:02:59,652 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 19:02:59,704 - Model - INFO - Epoch 182 (182/200):
+2023-06-05 19:03:13,214 - Model - INFO - Train Instance Accuracy: 0.976562
+2023-06-05 19:03:25,628 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:03:25,628 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:03:25,628 - Model - INFO - Save model...
+2023-06-05 19:03:25,628 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 19:03:25,680 - Model - INFO - Epoch 183 (183/200):
+2023-06-05 19:03:39,018 - Model - INFO - Train Instance Accuracy: 0.981534
+2023-06-05 19:03:51,213 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:03:51,213 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:03:51,213 - Model - INFO - Save model...
+2023-06-05 19:03:51,213 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 19:03:51,263 - Model - INFO - Epoch 184 (184/200):
+2023-06-05 19:04:04,368 - Model - INFO - Train Instance Accuracy: 0.984375
+2023-06-05 19:04:16,620 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:04:16,620 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:04:16,620 - Model - INFO - Save model...
+2023-06-05 19:04:16,620 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 19:04:16,669 - Model - INFO - Epoch 185 (185/200):
+2023-06-05 19:04:29,778 - Model - INFO - Train Instance Accuracy: 0.980824
+2023-06-05 19:04:41,800 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:04:41,801 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:04:41,801 - Model - INFO - Save model...
+2023-06-05 19:04:41,801 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 19:04:41,847 - Model - INFO - Epoch 186 (186/200):
+2023-06-05 19:04:54,998 - Model - INFO - Train Instance Accuracy: 0.982244
+2023-06-05 19:05:07,175 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:05:07,175 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:05:07,175 - Model - INFO - Save model...
+2023-06-05 19:05:07,175 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 19:05:07,223 - Model - INFO - Epoch 187 (187/200):
+2023-06-05 19:05:20,365 - Model - INFO - Train Instance Accuracy: 0.980824
+2023-06-05 19:05:32,381 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:05:32,381 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:05:32,381 - Model - INFO - Save model...
+2023-06-05 19:05:32,381 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 19:05:32,431 - Model - INFO - Epoch 188 (188/200):
+2023-06-05 19:05:45,536 - Model - INFO - Train Instance Accuracy: 0.977273
+2023-06-05 19:05:57,566 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:05:57,566 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:05:57,566 - Model - INFO - Save model...
+2023-06-05 19:05:57,566 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 19:05:57,616 - Model - INFO - Epoch 189 (189/200):
+2023-06-05 19:06:10,556 - Model - INFO - Train Instance Accuracy: 0.985085
+2023-06-05 19:06:22,557 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:06:22,558 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:06:22,558 - Model - INFO - Save model...
+2023-06-05 19:06:22,558 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 19:06:22,609 - Model - INFO - Epoch 190 (190/200):
+2023-06-05 19:06:35,689 - Model - INFO - Train Instance Accuracy: 0.982955
+2023-06-05 19:06:47,731 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:06:47,731 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:06:47,732 - Model - INFO - Save model...
+2023-06-05 19:06:47,732 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 19:06:47,782 - Model - INFO - Epoch 191 (191/200):
+2023-06-05 19:07:00,926 - Model - INFO - Train Instance Accuracy: 0.985795
+2023-06-05 19:07:13,140 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:07:13,141 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:07:13,141 - Model - INFO - Save model...
+2023-06-05 19:07:13,141 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 19:07:13,187 - Model - INFO - Epoch 192 (192/200):
+2023-06-05 19:07:26,318 - Model - INFO - Train Instance Accuracy: 0.977273
+2023-06-05 19:07:38,334 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:07:38,335 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:07:38,335 - Model - INFO - Save model...
+2023-06-05 19:07:38,335 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 19:07:38,384 - Model - INFO - Epoch 193 (193/200):
+2023-06-05 19:07:51,502 - Model - INFO - Train Instance Accuracy: 0.979403
+2023-06-05 19:08:03,724 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:08:03,724 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:08:03,724 - Model - INFO - Save model...
+2023-06-05 19:08:03,724 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 19:08:03,772 - Model - INFO - Epoch 194 (194/200):
+2023-06-05 19:08:16,889 - Model - INFO - Train Instance Accuracy: 0.980824
+2023-06-05 19:08:28,912 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:08:28,912 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:08:28,913 - Model - INFO - Save model...
+2023-06-05 19:08:28,913 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 19:08:28,960 - Model - INFO - Epoch 195 (195/200):
+2023-06-05 19:08:42,101 - Model - INFO - Train Instance Accuracy: 0.977983
+2023-06-05 19:08:54,318 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:08:54,318 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:08:54,318 - Model - INFO - Save model...
+2023-06-05 19:08:54,318 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 19:08:54,369 - Model - INFO - Epoch 196 (196/200):
+2023-06-05 19:09:07,516 - Model - INFO - Train Instance Accuracy: 0.984375
+2023-06-05 19:09:19,700 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:09:19,700 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:09:19,700 - Model - INFO - Save model...
+2023-06-05 19:09:19,700 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 19:09:19,750 - Model - INFO - Epoch 197 (197/200):
+2023-06-05 19:09:32,873 - Model - INFO - Train Instance Accuracy: 0.982244
+2023-06-05 19:09:44,884 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:09:44,884 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:09:44,884 - Model - INFO - Save model...
+2023-06-05 19:09:44,884 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 19:09:44,931 - Model - INFO - Epoch 198 (198/200):
+2023-06-05 19:09:57,875 - Model - INFO - Train Instance Accuracy: 0.982244
+2023-06-05 19:10:09,891 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:10:09,891 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:10:09,891 - Model - INFO - Save model...
+2023-06-05 19:10:09,891 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 19:10:09,941 - Model - INFO - Epoch 199 (199/200):
+2023-06-05 19:10:22,827 - Model - INFO - Train Instance Accuracy: 0.982955
+2023-06-05 19:10:34,883 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:10:34,883 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:10:34,883 - Model - INFO - Save model...
+2023-06-05 19:10:34,883 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 19:10:34,933 - Model - INFO - Epoch 200 (200/200):
+2023-06-05 19:10:47,836 - Model - INFO - Train Instance Accuracy: 0.968750
+2023-06-05 19:10:59,866 - Model - INFO - Test Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:10:59,867 - Model - INFO - Best Instance Accuracy: 1.000000, Class Accuracy: 1.000000
+2023-06-05 19:10:59,867 - Model - INFO - Save model...
+2023-06-05 19:10:59,867 - Model - INFO - Saving at log\classification\0605_pointnet_cls_normal\checkpoints/best_model.pth
+2023-06-05 19:10:59,916 - Model - INFO - End of training...
