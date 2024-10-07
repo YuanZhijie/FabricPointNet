@@ -173,3 +173,4 @@ grid = GridSearchCV(SVC(), param_grid, refit=True)
 grid.fit(train_features_normalized, train_labels_encoded)
 best_svc = grid.best_estimator_
 print_model_metrics(best_svc, "Optimized SVM", train_features_normalized, train_labels_encoded, test_features_normalized, test_labels_encoded)
+
