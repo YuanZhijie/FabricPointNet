@@ -2,9 +2,9 @@ import random
 import os
 
 # 源文件路径
-source_file = 'D:\\Workspace\\2021_YuanZhijie\\Paper01_1\\Pointnet_Pointnet2_pytorch\\data\\modelnet40_normal_resampled\\modelnet10_test.txt'
+source_file = 'data\\modelnet40_normal_resampled\\modelnet10_test.txt'
 # 目标文件路径
-target_file = 'D:\\Workspace\\2021_YuanZhijie\\Paper01_1\\Pointnet_Pointnet2_pytorch\\data\\modelnet40_normal_resampled\\dataset02_test.txt'
+target_file = 'data\\modelnet40_normal_resampled\\dataset02_test.txt'
 
 
 # 打开源文件和目标文件
